@@ -84,7 +84,7 @@ ctx.shadowColor = "hsla(0, 100%, 60%,0.5)";
 var precision = 100;
 var hearts = [];
 var mouseMoved = false;
-function onMove(e){
+function onMove(e{
   mouseMoved = true;
   if(e.type === "touchmove"){
     hearts.push(new Heart(e.touches[0].clientX, e.touches[0].clientY));
